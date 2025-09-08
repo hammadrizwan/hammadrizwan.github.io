@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Hammad Rizwan",
+    "Current Position": "PhD Candidate, Dalhousie University",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "hammad.rizwan@dal.ca",
+    // "phone": "(912) 123-4567",
+    // "Linkedin": "https://alshedivat.github.io/al-folio/",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,14 +24,90 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+    "name": "Upbeing.ai",
+    "position": "Mitacs Accelerate Intern, Mental Health Applications",
+    "url": "https://upbeing.ai/",
+    "startDate": "2024-02-01",
+    "endDate": "2024-11-30",
+    "summary": "Designed and implemented a dialogue system for the Upbeing mental health application, contributing to research in AI-driven mental health support.",
+    "highlights": [
+      "Developed dialogue system for mental health support",
+      "Applied NLP methods in wellness-focused applications"
+    ]
+  },
+  {
+    "name": "Arbisoft",
+    "position": "Senior ML Engineer, Social Media Applications",
+    "url": "https://arbisoft.com/",
+    "startDate": "2023-02-01",
+    "endDate": "2023-07-31",
+    "summary": "Worked on personalized recommendation and information extraction for social media applications.",
+    "highlights": [
+      "Built personalized recommendation system for a dining-focused social media app",
+      "Enhanced entity extraction accuracy on noisy short-text inputs"
+    ]
+  },
+  {
+    "name": "ISSM.ai",
+    "position": "NLP Engineer, Banking Automation",
+    "url": "https://issm.ai/",
+    "startDate": "2022-10-01",
+    "endDate": "2023-02-28",
+    "summary": "Developed NLP-driven solutions to automate multilingual banking processes and customer support.",
+    "highlights": [
+      "Built Urdu/Roman Urdu transliteration and semantic similarity models",
+      "Led chatbot development for United Bank Limited (UBL) and Allied Bank"
+    ]
+  },
+  {
+    "name": "Robotics and Intelligent Computing (RICE) Lab, LUMS",
+    "position": "Research Associate, Digital Forestry",
+    "url": "https://lums.edu.pk/",
+    "startDate": "2020-11-01",
+    "endDate": "2022-06-30",
+    "summary": "Conducted applied AI research for forestry management and conservation initiatives.",
+    "highlights": [
+      "Built monocular vision-based deep learning system for tree diameter estimation",
+      "Created Pakistan’s first annotated forestry dataset adopted by WWF and Forestry Pakistan"
+    ]
+  },
+  {
+    "name": "Eighty.ai",
+    "position": "NLP Engineer, Document Processing",
+    "url": "https://eighty.ai/",
+    "startDate": "2021-01-01",
+    "endDate": "2021-12-31",
+    "summary": "Worked on document classification and information extraction systems for the financial and trade domains.",
+    "highlights": [
+      "Developed commodity classification system using HS codes across 97 categories and 1,244 subcategories",
+      "Built high-precision NER and embedding models for the financial domain"
+    ]
+  },
+  {
+    "name": "Ai XPRT (AuditXPRT)",
+    "position": "NLP Engineer, Document Processing",
+    "url": "https://aixprt.com/",
+    "startDate": "2020-07-01",
+    "endDate": "2020-12-31",
+    "summary": "Worked on compliance and risk detection systems for insurance and banking clients.",
+    "highlights": [
+      "Developed anti-money laundering risk detection system for AIA Insurance",
+      "Enhanced ComplyXPRT compliance system for Barclays Bank with lifelong learning, model distillation, and multi-threaded deployment"
+    ]
+  },
+  {
+    "name": "Knowledge and Data Engineering (KADE) Lab, LUMS",
+    "position": "Research Assistant, Hate Speech and Generative Models",
+    "url": "https://lums.edu.pk/",
+    "startDate": "2019-09-01",
+    "endDate": "2020-06-30",
+    "summary": "Contributed to research on hate-speech detection and generative models in Roman Urdu.",
+    "highlights": [
+      "Created first open-source Roman Urdu hate-speech dataset",
+      "Developed custom detection model with improved Macro F1 score",
+      "Explored differentiable surrogate objectives for GAN-based paraphrase generation"
+    ]
+  }
   ],
   "volunteer": [
     {
@@ -46,112 +122,119 @@
     }
   ],
   "education": [
+
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+    "institution": "Dalhousie University",
+    "location": "Halifax, Canada",
+    "url": "https://www.dal.ca/",
+    "area": "Computer Science",
+    "studyType": "PhD",
+    "startDate": "2023-09-01",
+    "endDate": "",
+    "score": "",
+    "courses": ["Model Editing", "Machine Unlearning", "Interpretability", "Representation Learning"]
+  },
+  {
+    "institution": "Lahore University of Management Sciences (LUMS)",
+    "location": "Lahore, Pakistan",
+    "url": "https://lums.edu.pk/",
+    "area": "Computer Science",
+    "studyType": "MS",
+    "startDate": "2018-09-01",
+    "endDate": "2020-06-30",
+    "score": "",
+    "courses": ["Thesis: Hate-Speech and Offensive Language Detection in Roman Urdu"]
+  }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+      "title": "Doctoral Research Scholarship",
+      "date": "2023-2027",
+      "awarder": "Dalhousie University"
+     },
+     {
+      "title": "Undergraduate Merit Scholarship",
+      "date": "2014-2017",
+      "awarder": "COMSATS University"
+     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Resolving Lexical Bias in Model Editing",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/pdf/2408.10411",
+      "summary": "Current adapter methods are critically vulnerable to strong lexical biases, leading to issues such as applying edits to irrelevant prompts with overlapping words. This paper presents a principled approach to learning a disentangled representation space that facilitates precise localization of edits"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
+      "name": "Hate-Speech and Offensive Language Detection in Roman Urdu",
+      "publisher": "Empirical Methods in Natural Language Processing (EMNLP)",
       "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "url": "https://aclanthology.org/2020.emnlp-main.197.pdf",
+      "summary": "Despite its prevalence, Roman Urdu (RU) lacks language resources, annotated datasets, and language models for this task. In this study, we: (1) Present a lexicon of hateful words in RU, (2) Develop an annotated dataset called RUHSOLD consisting of 10, 012 tweets in RU with both coarse-grained and fine-grained labels of hate-speech and offensive language, (3) Explore the feasibility of transfer learning of five existing embedding models to RU, (4) Propose a novel deep learning architecture called CNN-gram for hatespeech and offensive language detection and compare its performance with seven current baseline approaches on RUHSOLD dataset"
     }
+
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Computer Vision"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Urdu",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +246,36 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Model Editing",
+        "Machine Unlearning",
+        "Self Supervised Learning",
+        "Interpretability"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Hassan Sajjad",
+      "icon": "fa-solid fa-university",
+      "reference": "Associate Professor, at Dalhousie University. Contact: hassan.sajjad@dal.ca"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Asim Karim",
+      "icon": "fa-solid fa-university",
+      "reference": "Professor, at Lahore University of Management Sciences (LUMS). Contact: akarim@lums.edu.pk"
     }
   ]
+  // "projects": [
+  //   {
+  //     "name": "Quantum Computing",
+  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+  //     "startDate": "2018-01-01",
+  //     "endDate": "2018-01-01",
+  //     "url": "https://example.com"
+  //   }
+  // ]
 }

@@ -340,6 +340,9 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+    - _pages/blog.md
+    - people.html
+
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
