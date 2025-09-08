@@ -1,2 +1,1 @@
-I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by Dr. Hassan Sajjad
-. My research focuses on model editing, machine unlearning, and interpretability, aiming to make AI systems more efficient and trustworthy.
+I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by Dr. Hassan Sajjad. My research focuses on model editing, machine unlearning, and interpretability, aiming to make AI systems more efficient and trustworthy.

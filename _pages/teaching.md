@@ -1,12 +1,18 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Teaching Assistant:
 
-Organize your courses by years, topics, or universities, however you like!
+Introduction to Robotics (CSCI 1108 - 2023,2024 Fall, Spring 2025 Fall), Dalhousie University.
+
+Deep Learning Applications (CSCI 5561 - 2025 Summer), Dalhousie University.
+
+Natural Language Processing (CS-5316 - Fall 2019), LUMS.
+
+Introduction to Programming (CS-200 - Winter 2018), LUMS.

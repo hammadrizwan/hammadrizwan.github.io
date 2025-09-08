@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle: <a href='https://hypermatrix.cs.dal.ca/'>HyperMatrix Lab, Dalhousie University</a>
 
@@ -26,8 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by Dr. Hassan Sajjad
-. My research focuses on model editing, machine unlearning, and interpretability, aiming to make AI systems more efficient and trustworthy.
+I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by [Dr. Hassan Sajjad](https://scholar.google.de/citations?user=t3BH6NkAAAAJ&hl=en). I My research focuses on model editing, and interpretability, aiming to make AI systems more efficient and trustworthy. I also work with [Dr. Ga Wu](https://scholar.google.com/citations?user=IdBlVPUAAAAJ&hl=en) on machine unlearning.
+
+
+Previously at LUMS, I worked under the supervision of [Dr. Asim Karim](https://scholar.google.ca/citations?user=NXFekJ4AAAAJ&hl=en) on hate-speech detection in Roman Urdu and paraphrase generation using generative adversarial networks (GANs). During this time, I helped create the first open-source dataset for offensive and hate speech detection in Roman Urdu and explored novel approaches for GAN-based text generation. I also worked as a Research Associate under [Dr. Mian Muhammad Awais](https://scholar.google.com/citations?user=wkxlfFAAAAAJ&hl=en) on digital forestry research, where we developed computer vision systems for automated tree classification, segmentation, and diameter estimation (DBH). This work was funded and aimed at supporting WWF and Forestry Pakistan for forest monitoring and conservation efforts.
+
+Alongside research, I’ve gained extensive industry experience as an ML Engineer and researcher. I’ve worked with organizations such as Upbeing.ai, Arbisoft, ISSM.ai, Eighty.ai, and Ai XPRT, building practical AI solutions for mental health support, social media recommendation systems, banking automation, regulatory compliance, and document processing. These roles allowed me to bridge theory and practice by deploying scalable and impactful machine learning systems.
 
 <!-- [/ # Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just  #name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
