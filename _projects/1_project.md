@@ -4,7 +4,7 @@ title: Resolving Lexical Bias in Model Editing
 description: A weights preserving model editing approach using Projector Editor Network (PENME). 
 img: assets/img/PENME.jpg
 importance: 1
-category: work
+category: Academic
 related_publications: true
 ---
 

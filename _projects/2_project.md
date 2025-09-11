@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: "Instance-Level Difficulty: A Missing Perspective in Machine Unlearning"
+description: An exploration into difficulty of unlearning single instances in deep learning models.
+img: assets/img/instance.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Academic
+related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.

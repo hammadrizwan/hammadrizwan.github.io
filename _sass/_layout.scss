@@ -38,8 +38,24 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
 
+// TODO: redefine content layout.
+.navbar,
+.navbar.fixed-top,
+.navbar-light {
+  background-color: #f0ddbb !important;  /* solid white background */
+  color: #1e3a5f;                        /* dark text for readability */
+}
+
+/* optional: force navbar links to stay dark */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #1e3a5f !important;
+}
+
+.navbar .nav-link:hover {
+  color: #20b2aa !important;  /* your ocean blue accent on hover */
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/

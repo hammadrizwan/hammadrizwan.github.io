@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Estimating DBH of Forest Trees via Monocular Vision
 description: another without an image
-img:
-importance: 3
-category: fun
+img: assets/img/forest.jpg
+importance: 4
+category: Academic
 ---
 
 Every project has a beautiful feature showcase page.
