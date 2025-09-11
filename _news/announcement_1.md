@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Resolving Lexical Bias in Model Editing has been accepted as poster at ICML 2025!
+[Resolving Lexical Bias in Model Editing](https://openreview.net/pdf?id=aPm6SfcMWQ) has been accepted as poster at ICML 2025!

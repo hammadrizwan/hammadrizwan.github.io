@@ -56,6 +56,26 @@ body.sticky-bottom-footer {
 .navbar .nav-link:hover {
   color: #20b2aa !important;  /* your ocean blue accent on hover */
 }
+
+.container {
+  max-width: 50% !important;
+  width: 50%;
+}
+
+/* Optional: tighten side padding so content isn’t glued to edges */
+.container,
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/
