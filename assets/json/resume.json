@@ -1,11 +1,12 @@
+  // "phone": ,
+  //   "Linkedin": ,
 {
   "basics": {
     "name": "Hammad Rizwan",
     "Current Position": "PhD Candidate, Dalhousie University",
     "image": "",
-    "email": "hammad.rizwan@dal.ca",
-    // "phone": "(912) 123-4567",
-    // "Linkedin": "https://alshedivat.github.io/al-folio/",
+    "email": "first_name.last_name@dal.ca (lowecased)",
+  
     "summary": "",
     "location": {
       "address": "2712 Broadway St",
