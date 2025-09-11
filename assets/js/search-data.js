@@ -413,18 +413,18 @@ ninja.data = [{
           description: "A weights preserving model editing approach using Projector Editor Network (PENME).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-instance-level-difficulty-a-missing-perspective-in-machine-unlearning",
+          title: 'Instance-Level Difficulty: A Missing Perspective in Machine Unlearning',
+          description: "An exploration into difficulty of unlearning single instances in deep learning models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-hate-speech-and-offensive-language-detection-in-roman-urdu",
+          title: 'Hate-Speech and Offensive Language Detection in Roman Urdu',
+          description: "The first extensive work on data curation and evaluation for hate speech detection in Roman Urdu.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+            },},{id: "projects-estimating-dbh-of-forest-trees-via-monocular-vision",
+          title: 'Estimating DBH of Forest Trees via Monocular Vision',
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
@@ -474,30 +474,4 @@ ninja.data = [{
         handler: () => {
           window.open("https://twitter.com/_HammadRizwan_", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
