@@ -58,10 +58,14 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 50% !important;
-  width: 50%;
+  max-width: 60% !important;
+  // width: 50%;
 }
-
+.projects .container {
+  // margin-left: 0 !important;
+  // margin-right: auto !important;
+  max-width: 80% !important; /* optional if you want full span */
+}
 /* Optional: tighten side padding so content isn’t glued to edges */
 .container,
 .container-fluid {
@@ -87,3 +91,69 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+/* --- Project cards: polished, elevated look --- */
+.projects .card,
+.project-card {
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 16px;
+  overflow: hidden;                 /* keep image corners rounded */
+  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+/* subtle hover “lift” */
+.projects .card:hover,
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.18);
+  border-color: color-mix(in srgb, var(--global-theme-color) 20%, var(--global-divider-color));
+}
+
+/* image: crisp, consistent, no grey frame */
+.projects .card-img,
+.projects .card-img-top,
+.project-card .card-img,
+.project-card .card-img-top {
+  display: block;
+  width: 100%;
+  // aspect-ratio: 14/9;               /* consistent tile height */
+  object-fit: cover;                 /* fill without distortion */
+  border-bottom: 1px solid var(--global-divider-color);
+  image-rendering: auto;            /* browser chooses best scaling */
+}
+
+/* body spacing & typography */
+.projects .card-body,
+.project-card .card-body {
+  padding: 1.1rem 1.1rem 1.2rem;
+}
+
+.projects .card-title,
+.project-card .card-title {
+  margin: 0 0 .4rem 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: .1px;
+  color: var(--global-theme-color);
+}
+
+.projects .card-text,
+.project-card .card-text {
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+
+/* nicer spacing between cards */
+.projects .row { row-gap: 1.25rem; }
+
+/* dark themes get a slightly stronger shadow */
+html[data-theme="dark"] .project-card,
+html[data-theme="midnight"] .project-card,
+html[data-theme="forest"] .project-card,
+html[data-theme="cocoa"] .project-card,
+html[data-theme="cyber"] .project-card {
+  box-shadow: 0 12px 36px rgba(0,0,0,.28);
+}
