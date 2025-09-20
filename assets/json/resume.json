@@ -26,75 +26,57 @@
   "work": [
     {
     "name": "Upbeing.ai",
-    "position": "Mitacs Accelerate Intern, Mental Health Applications",
+    "position": "Mitacs Accelerate Intern",
     "url": "https://upbeing.ai/",
     "startDate": "2024-02-01",
     "endDate": "2024-11-30",
-    "summary": "Designed and implemented a dialogue system for the Upbeing mental health application, contributing to research in AI-driven mental health support.",
-    "highlights": [
-      "Developed dialogue system for mental health support",
-      "Applied NLP methods in wellness-focused applications"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "Arbisoft",
-    "position": "Senior ML Engineer, Social Media Applications",
+    "position": "Senior ML Engineer",
     "url": "https://arbisoft.com/",
     "startDate": "2023-02-01",
     "endDate": "2023-07-31",
-    "summary": "Worked on personalized recommendation and information extraction for social media applications.",
-    "highlights": [
-      "Built personalized recommendation system for a dining-focused social media app",
-      "Enhanced entity extraction accuracy on noisy short-text inputs"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "ISSM.ai",
-    "position": "NLP Engineer, Banking Automation",
+    "position": "NLP Engineer",
     "url": "https://issm.ai/",
     "startDate": "2022-10-01",
     "endDate": "2023-02-28",
-    "summary": "Developed NLP-driven solutions to automate multilingual banking processes and customer support.",
-    "highlights": [
-      "Built Urdu/Roman Urdu transliteration and semantic similarity models",
-      "Led chatbot development for United Bank Limited (UBL) and Allied Bank"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "Robotics and Intelligent Computing (RICE) Lab, LUMS",
-    "position": "Research Associate, Digital Forestry",
+    "position": "Research Associate",
     "url": "https://lums.edu.pk/",
     "startDate": "2020-11-01",
     "endDate": "2022-06-30",
-    "summary": "Conducted applied AI research for forestry management and conservation initiatives.",
-    "highlights": [
-      "Built monocular vision-based deep learning system for tree diameter estimation",
-      "Created Pakistan’s first annotated forestry dataset adopted by WWF and Forestry Pakistan"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "Eighty.ai",
-    "position": "NLP Engineer, Document Processing",
+    "position": "NLP Engineer",
     "url": "https://eighty.ai/",
     "startDate": "2021-01-01",
     "endDate": "2021-12-31",
-    "summary": "Worked on document classification and information extraction systems for the financial and trade domains.",
-    "highlights": [
-      "Developed commodity classification system using HS codes across 97 categories and 1,244 subcategories",
-      "Built high-precision NER and embedding models for the financial domain"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "Ai XPRT (AuditXPRT)",
-    "position": "NLP Engineer, Document Processing",
+    "position": "NLP Engineer",
     "url": "https://aixprt.com/",
     "startDate": "2020-07-01",
     "endDate": "2020-12-31",
-    "summary": "Worked on compliance and risk detection systems for insurance and banking clients.",
-    "highlights": [
-      "Developed anti-money laundering risk detection system for AIA Insurance",
-      "Enhanced ComplyXPRT compliance system for Barclays Bank with lifelong learning, model distillation, and multi-threaded deployment"
-    ]
+    "summary": "",
+    "highlights": []
   },
   {
     "name": "Knowledge and Data Engineering (KADE) Lab, LUMS",
@@ -102,25 +84,12 @@
     "url": "https://lums.edu.pk/",
     "startDate": "2019-09-01",
     "endDate": "2020-06-30",
-    "summary": "Contributed to research on hate-speech detection and generative models in Roman Urdu.",
-    "highlights": [
-      "Created first open-source Roman Urdu hate-speech dataset",
-      "Developed custom detection model with improved Macro F1 score",
-      "Explored differentiable surrogate objectives for GAN-based paraphrase generation"
-    ]
+    "summary": "",
+    "highlights": []
   }
   ],
   "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+    
   ],
   "education": [
 
@@ -261,12 +230,12 @@
     {
       "name": "Hassan Sajjad",
       "icon": "fa-solid fa-university",
-      "reference": "Associate Professor, at Dalhousie University. Contact: hassan.sajjad@dal.ca"
+      "reference": "Associate Professor, at Dalhousie University."
     },
     {
       "name": "Asim Karim",
       "icon": "fa-solid fa-university",
-      "reference": "Professor, at Lahore University of Management Sciences (LUMS). Contact: akarim@lums.edu.pk"
+      "reference": "Professor, at Lahore University of Management Sciences (LUMS)"
     }
   ]
   // "projects": [
