@@ -461,17 +461,17 @@ ninja.data = [{
           window.open("mailto:%68%61%6D%6D%61%64.%72%69%7A%77%61%6E@%64%61%6C.%63%61", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/hammad-rizwan", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=vERBCLMAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/_HammadRizwan_", "_blank");
         },
       },];
