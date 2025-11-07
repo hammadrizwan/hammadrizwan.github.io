@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by [Dr. Hassan Sajjad](https://scholar.google.de/citations?user=t3BH6NkAAAAJ&hl=en). My research focuses on model editing, and interpretability, aiming to make AI systems more efficient and trustworthy. I also work with [Dr. Ga Wu](https://scholar.google.com/citations?user=IdBlVPUAAAAJ&hl=en) on machine unlearning.
+I’m Hammad Rizwan, a PhD student in Computer Science at Dalhousie University, supervised by [Dr. Hassan Sajjad](https://scholar.google.de/citations?user=t3BH6NkAAAAJ&hl=en). My research focuses on model editing, and interpretability, aiming to make AI systems more efficient and trustworthy. 
 
 
 Previously at LUMS, I worked under the supervision of [Dr. Asim Karim](https://scholar.google.ca/citations?user=NXFekJ4AAAAJ&hl=en) on hate-speech detection in Roman Urdu and paraphrase generation. During this time, I helped create the first open-source dataset for offensive and hate speech detection in Roman Urdu and explored novel approaches for GAN-based text generation. I also worked as a Research Associate under [Dr. Mian Muhammad Awais](https://scholar.google.com/citations?user=wkxlfFAAAAAJ&hl=en) on digital forestry research, where we developed computer vision systems for automated tree classification, segmentation, and diameter estimation (DBH). This work was funded and aimed at supporting WWF and Forestry Pakistan for forest monitoring and conservation efforts.
