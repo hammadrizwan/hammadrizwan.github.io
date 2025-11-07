@@ -49,9 +49,9 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: false
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+socials_in_search: fasle
+posts_in_search: fasle
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -160,6 +160,9 @@ collections:
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
+
+math: false    # <— add this (default: off)
+
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -647,3 +650,5 @@ jsonresume:
   - languages
   - interests
   - references
+
+# _config.yml

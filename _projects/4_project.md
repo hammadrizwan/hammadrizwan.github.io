@@ -5,7 +5,7 @@ description: another without an image
 img: assets/img/forest.jpg
 importance: 4
 category: fun
-
+math: True
 ---
 
 ### Summary:
@@ -26,7 +26,7 @@ This dataset contains both single unpaired images as-well-as paired images that 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sample_dataset_images_combined.jpg" title="Lexical dominance visual" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="lazy" path="assets/img/sample_dataset_images_combined.jpg" title="Lexical dominance visual" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 <div class="caption">

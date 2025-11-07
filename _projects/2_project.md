@@ -6,6 +6,7 @@ img: assets/img/instance.jpg
 importance: 2
 category: Academic
 related_publications: true
+math: True
 ---
 
 ### Summary:
