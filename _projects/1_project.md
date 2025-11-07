@@ -6,6 +6,7 @@ img: assets/img/PENME.jpg
 importance: 1
 category: Academic
 related_publications: true
+math: True
 ---
 
 ### Summary:
@@ -18,7 +19,7 @@ Our research shows that performance of weight-preserving methods is heavily reli
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/lexical_domince_visual_figure1.png" title="Lexical dominance visual" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload"  path="assets/img/lexical_domince_visual_figure1.png" title="Lexical dominance visual" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 <div class="caption">
@@ -32,7 +33,7 @@ To examine the lexical bias of representations, we randomly sampled 500 entries 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/lexical_dominance_models_full.png" title="Lexical dominance model representations" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload" path="assets/img/lexical_dominance_models_full.png" title="Lexical dominance model representations" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 
@@ -49,7 +50,7 @@ PENME, illustrated in Figure 3, consists of two components: (1) $$\textbf{Projec
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/PENME.png" title="PENME Overview" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload" path="assets/img/PENME.png" title="PENME Overview" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 
@@ -85,7 +86,7 @@ The results presented in Figure 4 demonstrate that the projector network effecti
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/Lexical_Dominance_projector.png" title="projector result" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload" path="assets/img/Lexical_Dominance_projector.png" title="projector result" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 
@@ -127,7 +128,7 @@ PENEME is evaluated under two experimental settings. The first is a batch evalua
 To demonstrate the trade-off between generalization and locality, we conducted an ablation study by varying the τ parameter, which modulates the similarity threshold defining an edit’s scope. Figure 5 presents the results for GPT2-XL and T5-small. 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/generalization_vs_locality_threshold_main.png" title="Hyperparamter tuning" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload" path="assets/img/generalization_vs_locality_threshold_main.png" title="Hyperparamter tuning" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
     
 </div>
@@ -139,7 +140,7 @@ To demonstrate the trade-off between generalization and locality, we conducted a
 We evaluate the projection network’s stability under varying numbers of edits using incrementally larger training sets ranging from 1000 to 5000 edits, with 1000-edit increments per training session. The results of the experiment are shown in Figure 6. 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/penme_ablation_samples.png" title="Scaling PENME" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
+        {% include figure.liquid loading="preload" path="assets/img/penme_ablation_samples.png" title="Scaling PENME" class="img-fluid rounded z-depth-1 w-70 mx-auto d-block" %}
     </div>
 </div>
 <div class="caption">
